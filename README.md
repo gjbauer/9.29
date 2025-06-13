@@ -77,7 +77,7 @@ The central assumption of computational neuroscience is that the brain computes.
 
 * Basic biology, chemistry, and physics.
 * Differential equations or permission of instructor. Linear algebra is also desirable.
-* Knowledge of MATLAB® or willingness to learn.
+* Knowledge of MATLAB®/R or willingness to learn.
 
 ### Course Requirements
 
