@@ -57,20 +57,6 @@ Problem Sets
 
 9.29J | Spring 2004 | Undergraduate
 --
-  
-
-* [Syllabus](/courses/9-29j-introduction-to-computational-neuroscience-spring-2004/pages/syllabus)
-  
-* [Calendar](/courses/9-29j-introduction-to-computational-neuroscience-spring-2004/pages/calendar)
-  
-* [Readings](/courses/9-29j-introduction-to-computational-neuroscience-spring-2004/pages/readings)
-  
-* [Lecture Notes](/courses/9-29j-introduction-to-computational-neuroscience-spring-2004/pages/lecture-notes)
-  
-* [Assignments](/courses/9-29j-introduction-to-computational-neuroscience-spring-2004/pages/assignments)
-  
-
-
 
 
 Syllabus
