@@ -15,13 +15,13 @@
 
 ##### Instructor
 
-* [Prof. Sebastian Seung](/search/?q=Prof.+Sebastian+Seung)
+* Prof. Sebastian Seung
 
 
 ##### Departments
 
-* [Brain and Cognitive Sciences](/search/?d=Brain+and+Cognitive+Sciences)
-* [Physics](/search/?d=Physics)
+* Brain and Cognitive Sciences
+* Physics
 
 
 ##### As Taught In
