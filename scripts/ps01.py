@@ -24,7 +24,6 @@ def main():
 		plots = csv.reader(csvfile, delimiter = ',')
 	
 		for row in plots:
-			print(row[1])
 			if i < 1000 :
 				y.append(row[1])
 				i+=1
@@ -36,7 +35,6 @@ def main():
 		plots = csv.reader(csvfile, delimiter = ',')
 	
 		for row in plots:
-			print(row[1])
 			if i < 1000 :
 				y1.append(row[1])
 				i+=1
@@ -46,7 +44,7 @@ def main():
 	
 	fig, ax1 = plt.subplots()
 	ax1.plot(x, y)
-	ax2 = ax1.twinx()
+	ax2 = ax1.twiny()
 	plt.plot(x, y1)
 	plt.show()
 		
