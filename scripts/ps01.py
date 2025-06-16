@@ -8,25 +8,41 @@ y = []
 y1 = []
 
 def main():
+	i = 0
 	with open('time.csv','r') as csvfile:
 		plots = csv.reader(csvfile, delimiter = ',')
 	
 		for row in plots:
-			x.append(row[1])
+			if i < 1000 :
+				x.append(row[1])
+				i+=1
+			else :
+				i = 0
+				break
 			
 	with open('rho.csv','r') as csvfile:
 		plots = csv.reader(csvfile, delimiter = ',')
 	
 		for row in plots:
 			print(row[1])
-			y.append(row[1])
+			if i < 1000 :
+				y.append(row[1])
+				i+=1
+			else :
+				i = 0
+				break
 	
 	with open('stim.csv','r') as csvfile:
 		plots = csv.reader(csvfile, delimiter = ',')
 	
 		for row in plots:
 			print(row[1])
-			y1.append(row[1])
+			if i < 1000 :
+				y1.append(row[1])
+				i+=1
+			else :
+				i = 0
+				break
 	
 	fig, ax1 = plt.subplots()
 	ax1.plot(x, y)
