@@ -45,7 +45,11 @@ def main():
 	fig, ax1 = plt.subplots()
 	ax1.plot(x, y, color = '#ff0000')
 	ax2 = ax1.twinx()
-	# TODO: Fix the scaling
+	
+	ax2.set_ylim(0, 500)
+	ax1.set_ylim(-1, 3)
+	
+	fig.subplots_adjust(hspace=0)
 	plt.plot(x, y1, color = '#0000cc')
 	plt.show()
 		
