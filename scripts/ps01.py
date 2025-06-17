@@ -43,9 +43,10 @@ def main():
 				break
 	
 	fig, ax1 = plt.subplots()
-	ax1.plot(x, y)
-	ax2 = ax1.twiny()
-	plt.plot(x, y1)
+	ax1.plot(x, y, color = '#ff0000')
+	ax2 = ax1.twinx()
+	# TODO: Fix the scaling
+	plt.plot(x, y1, color = '#0000cc')
 	plt.show()
 		
 if __name__ == '__main__':
