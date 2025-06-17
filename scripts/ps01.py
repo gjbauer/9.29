@@ -46,10 +46,13 @@ def main():
 	ax1.plot(x, y, color = '#ff0000')
 	ax2 = ax1.twinx()
 	
-	ax2.set_ylim(0, 500)
+	ax2.set_ylim(-200, 800)
 	ax1.set_ylim(-1, 3)
 	
 	fig.subplots_adjust(hspace=0)
+	plt.xticks(range(0, 1000, 25))
+	plt.yticks(range(-200, 800, 50))
+	
 	plt.plot(x, y1, color = '#0000cc')
 	plt.show()
 		
